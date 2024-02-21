@@ -9,7 +9,7 @@ const LibraryPage = () => {
 
   useEffect(() => {
     // Define the URL of your Flask server endpoint
-    const endpointUrl = 'http://127.0.0.1:5000/books';
+    const endpointUrl = 'rishy69.pythonanywhere.com/books';
 
     // Send a GET request to the Flask server
     fetch(endpointUrl)
