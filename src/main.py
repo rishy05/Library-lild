@@ -21,7 +21,7 @@ def get_books():
     cur = conn.cursor()
 
     # Query to retrieve all data from the books table
-    query = "SELECT * FROM books;"
+    query = "SELECT * FROM books2;"
 
     # Execute the query
     cur.execute(query)
